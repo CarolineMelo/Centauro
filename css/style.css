@@ -1,0 +1,241 @@
+
+ * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+} 
+
+body{
+    background-color: black;
+}
+.nav{
+    background-color: #A70E13;
+    height:38.99px;
+    padding: 0px 20px;
+    
+}
+.nav-item{
+    
+    text-transform: uppercase;
+    white-space: nowrap;
+    color: rgb(255, 255, 255);
+    margin-left: 10%;
+    font-size: 12px;
+    padding: 0px 20 px;
+    margin: 0px auto;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    height: 100%;
+}
+a:hover{
+    color:white;
+    text-decoration: none;
+}
+/* .form-control::before{
+    content: url(../img/search.png);
+    width: 25px;
+    height: 25px;
+    display: inline-block;
+    background-size: 25px;
+} */
+
+.navbar{
+    background-color: rgb(227, 0, 0);
+    height: 86px;
+}
+.nav-link{
+    color: white;
+    
+}
+
+.text-center{
+    color: white;
+}
+h3{
+    height: 26px; 
+    color: rgb(255,255,255); 
+    font-size:14px; 
+    
+}
+.row{
+   display: flex;
+   justify-content: center;
+}
+
+.nav-menu {
+    height: 48px;
+    max-height: 48px;
+    background: rgb(255, 255, 255);
+    color: rgb(135, 135, 135);
+    border-bottom: 1px solid rgb(209, 209, 209);
+    transition: max-height 0.2s ease-in 0s;
+    position: relative;
+}
+.menu-section {
+    -webkit-box-align: center;
+    max-width: 1400px;
+    padding: 0px 24px;
+    margin: 0px auto;
+    text-align: left;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+.section {
+    display: flex;
+    height: 100%;
+    max-width: 100%;
+    width: 100%;
+}
+/*  .item_a {
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    padding: 0px 13px 0px 0px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(135, 135, 135);
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    z-index: 14;
+}
+.item_b {
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    padding: 0px 13px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(135, 135, 135);
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    z-index: 14;
+}
+
+.item_c {
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    padding: 0px 13px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(135, 135, 135);
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    z-index: 14;
+}
+.item_g {
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    font-size: 14px;
+    cursor: pointer;
+    padding: 0px 12px;
+    height: calc(100% + 1px);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    z-index: 14;
+}  */
+
+.menu a {
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    padding: 0px 13px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(135, 135, 135);
+    font-size: 14px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 500;
+    position: relative;
+    z-index: 14;
+    height: calc(100% + 1px);
+
+}
+
+
+.item_j {
+    height: auto;
+    cursor: pointer;
+    
+} 
+
+.text {
+    -webkit-box-align: end;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+
+h3{
+    text-align: center;
+    height: 26px;
+    color: rgb(255,255,255); 
+    font-weight: 400;
+    font-size: 14px;
+}
+/*     Atenção continuar amanhã. footer
+div
+    -webkit-box-direction: normal;
+        -webkit-box-orient: vertical;
+        display: flex;
+        width: 23%;
+        max-width: 280px;
+        flex-direction: column;
+        margin: 0 px 16 px;
+        order: 4;
+} */
+footer{
+    display: flex;
+    flex-flow: row wrap;
+    height:254px;
+    margin: 0px;
+    padding: 0px;
+    background: rgb(227, 0, 0);
+    
+
+}
+
+@media (max-width: 1200px){
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
