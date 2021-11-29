@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     border: 0;
+    box-sizing: border-box;
 } 
 
 body{
@@ -72,90 +73,13 @@ h3{
     color: rgb(135, 135, 135);
     border-bottom: 1px solid rgb(209, 209, 209);
     transition: max-height 0.2s ease-in 0s;
-    position: relative;
-}
-.menu-section {
-    -webkit-box-align: center;
-    max-width: 1400px;
-    padding: 0px 24px;
-    margin: 0px auto;
-    text-align: left;
-    display: flex;
-    align-items: center;
-    height: 100%;
+    /* position: relative; */
 }
 .section {
     display: flex;
     height: 100%;
-    max-width: 100%;
     width: 100%;
 }
-/*  .item_a {
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
-    padding: 0px 13px 0px 0px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(135, 135, 135);
-    font-size: 14px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    position: relative;
-    z-index: 14;
-}
-.item_b {
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
-    padding: 0px 13px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(135, 135, 135);
-    font-size: 14px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    position: relative;
-    z-index: 14;
-}
-
-.item_c {
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
-    padding: 0px 13px;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: rgb(135, 135, 135);
-    font-size: 14px;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    position: relative;
-    z-index: 14;
-}
-.item_g {
-    -webkit-box-pack: center;
-    -webkit-box-align: center;
-    font-size: 14px;
-    cursor: pointer;
-    padding: 0px 12px;
-    height: calc(100% + 1px);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 500;
-    position: relative;
-    z-index: 14;
-}  */
-
 .menu a {
     -webkit-box-pack: center;
     -webkit-box-align: center;
@@ -197,17 +121,7 @@ h3{
     font-weight: 400;
     font-size: 14px;
 }
-/*     Atenção continuar amanhã. footer
-div
-    -webkit-box-direction: normal;
-        -webkit-box-orient: vertical;
-        display: flex;
-        width: 23%;
-        max-width: 280px;
-        flex-direction: column;
-        margin: 0 px 16 px;
-        order: 4;
-} */
+
 footer{
     display: flex;
     flex-flow: row wrap;
@@ -219,9 +133,6 @@ footer{
 
 }
 
-@media (max-width: 1200px){
-
-}
 
 
 
